@@ -1,0 +1,41 @@
+{
+  "name": "webpup/just-blade",
+  "description": "Just Blade standalone templating engine for use outside of Laravel.",
+  "keywords": [
+    "laravel",
+    "blade",
+    "template",
+    "view",
+    "render"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "webpup",
+      "homepage": "https://webpup.github.io/just-blade"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "illuminate/view": "11.7.0",
+    "illuminate/config": "^11.44.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.0",
+    "laravel/pint": "^1.13"
+  },
+  "scripts": {
+        "test": "vendor/bin/phpunit",
+        "lint": "vendor/bin/pint --test",
+        "fix": "vendor/bin/pint"
+    },
+  "autoload": {
+        "psr-4": {
+            "Just\\Blade\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+    
+}
+
