@@ -1,7 +1,6 @@
 # Just Blade
 
 ### Laravel's Blade standalone
-Version : v0.0.2
 
 Blade templating engine for use outside of Laravel
 
