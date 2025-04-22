@@ -1,6 +1,6 @@
 <?php
 
-namespace Just\Blade;
+namespace Just;
 
 use Closure;
 use Illuminate\Container\Container as BaseContainer;

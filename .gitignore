@@ -1,5 +1,9 @@
 .idea
 /vendor
+/node_modules
+/.vscode
+/.env
+/.env.local
 composer.lock
 .DS_Store
 .phpunit.cache/
