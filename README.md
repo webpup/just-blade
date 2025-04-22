@@ -10,4 +10,4 @@ composer require webpup/just-blade
 ```
 
 ## Docs
-[webpup/github.io/just-blade](https://webpup/github.io/just-blade)
+[webpup.github.io/just-blade](https://webpup.github.io/just-blade)
